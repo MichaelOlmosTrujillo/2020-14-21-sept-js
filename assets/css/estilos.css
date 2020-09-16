@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+
+}
+
+button {
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgba(33, 57, 102, 0.63);
+    color: cornsilk;
+}
+
+button:hover {
+    background-color: rgb(33, 57, 102);
+    color: darkgoldenrod;
+}
+
+div {
+    overflow: hidden;
+    height: 0px;
+    transition: all 2s ease-in;
+
+}
+
+.efecto {
+    overflow-x: visible;
+    height: 500px;
+    transition: all 2s ease-in;
+
+}
